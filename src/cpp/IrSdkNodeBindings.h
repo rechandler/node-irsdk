@@ -36,7 +36,9 @@ namespace NodeIrSdk {
   {
     irsdk.startup();
 
-    node::AtExit(cleanUp);
+    void* data;
+
+    // node::AtExit(static_cast<node::Environment*>(data), cleanUp, nullptr);
 
     NAN_EXPORT(target, start);
     NAN_EXPORT(target, shutdown);
