@@ -486,6 +486,13 @@ function JsIrSdk (IrSdkWrapper, opts) {
     IrSdkWrapper.shutdown()
   }
 
+  /**
+   * Restart JsIrSdk
+   */
+  this._restart = function() {
+    IrSdkWrapper.startup()
+  }
+
   /** pad car number
     @function
     @private
