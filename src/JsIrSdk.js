@@ -490,7 +490,7 @@ function JsIrSdk (IrSdkWrapper, opts) {
    * Restart JsIrSdk
    */
   this._restart = function() {
-    IrSdkWrapper.startup()
+    IrSdkWrapper.start()
   }
 
   /** pad car number
