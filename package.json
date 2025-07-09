@@ -1,6 +1,6 @@
 {
   "name": "node-irsdk",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "iRacing SDK implementation for Node.js",
   "main": "src/node-irsdk.js",
   "scripts": {
@@ -21,28 +21,28 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apihlaja/node-irsdk.git"
+    "url": "https://github.com/rechandler/node-irsdk.git"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=18"
   },
   "dependencies": {
-    "js-yaml": "3.*",
-    "nan": "2.14.0",
-    "prebuild-install": "^5.0.0"
+    "js-yaml": "^4.1.0",
+    "nan": "^2.20.0",
+    "prebuild-install": "^7.1.2"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "changelog": "1.*",
-    "jsdoc-to-markdown": "^5.0.0",
-    "mocha": "^6.1.4",
-    "moment": "^2.19.3",
-    "prebuild": "9.0.1",
-    "sandboxed-module": "2.0.*",
-    "sinon": "^7.3.2",
-    "sinon-chai": "3.*",
-    "standard": "8.6.0",
-    "node-gyp": "8.4.1"
+    "chai": "^4.5.0",
+    "changelog": "^1",
+    "jsdoc-to-markdown": "^8.0.3",
+    "mocha": "^10.7.3",
+    "moment": "^2.30.1",
+    "prebuild": "^13.0.1",
+    "sandboxed-module": "^2.0.4",
+    "sinon": "^18.0.0",
+    "sinon-chai": "^3.7.0",
+    "standard": "^17.1.0",
+    "node-gyp": "^10.2.0"
   },
   "standard": {
     "globals": [
