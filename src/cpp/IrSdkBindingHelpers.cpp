@@ -110,6 +110,10 @@ Local<Value> NodeIrSdk::getMaskedValues(const int &val, char *unit)
   {
     return getValueArr(val, PIT_SV_MASKS);
   }
+  if (strcmp(unit, "irsdk_PaceFlags") == 0)
+  {
+    return getValueArr(val, PACE_FLAGS_MASKS);
+  }
   if (strcmp(unit, "irsdk_CarLeftRight") == 0)
   {
     return getValueArr(val, CAR_BESIDE);

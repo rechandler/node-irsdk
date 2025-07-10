@@ -68,6 +68,34 @@ const std::vector<MaskName> PIT_SV_MASKS = {
     MaskName((int)irsdk_WindshieldTearoff, "WindshieldTearoff"),
     MaskName((int)irsdk_FastRepair, "FastRepair")};
 
+const std::vector<MaskName> PACE_FLAGS_MASKS = {
+    MaskName((int)irsdk_PaceFlagNone, "PaceFlagNone"),
+    MaskName((int)irsdk_PaceFlagEndOfLine, "PaceFlagEndOfLine"),
+    MaskName((int)irsdk_PaceFlagFreePass, "PaceFlagFreePass"),
+    MaskName((int)irsdk_PaceFlagWavedAround, "PaceFlagWavedAround"),
+    MaskName((int)irsdk_PaceFlagClosedPits, "PaceFlagClosedPits"),
+    MaskName((int)irsdk_PaceFlagCarOnTrack, "PaceFlagCarOnTrack"),
+    MaskName((int)irsdk_PaceFlagOnPaceGrid, "PaceFlagOnPaceGrid"),
+    MaskName((int)irsdk_PaceFlagOneToGreen, "PaceFlagOneToGreen"),
+    MaskName((int)irsdk_PaceFlagGreenHeld, "PaceFlagGreenHeld"),
+    MaskName((int)irsdk_PaceFlagOnPaceLap, "PaceFlagOnPaceLap"),
+    MaskName((int)irsdk_PaceFlagCaution, "PaceFlagCaution"),
+    MaskName((int)irsdk_PaceFlagCautionWaving, "PaceFlagCautionWaving"),
+    MaskName((int)irsdk_PaceFlagCheckered, "PaceFlagCheckered"),
+    MaskName((int)irsdk_PaceFlagWhite, "PaceFlagWhite"),
+    MaskName((int)irsdk_PaceFlagGreen, "PaceFlagGreen"),
+    MaskName((int)irsdk_PaceFlagYellow, "PaceFlagYellow"),
+    MaskName((int)irsdk_PaceFlagRed, "PaceFlagRed"),
+    MaskName((int)irsdk_PaceFlagBlue, "PaceFlagBlue"),
+    MaskName((int)irsdk_PaceFlagDebris, "PaceFlagDebris"),
+    MaskName((int)irsdk_PaceFlagCrossed, "PaceFlagCrossed"),
+    MaskName((int)irsdk_PaceFlagYellowWaving, "PaceFlagYellowWaving"),
+    MaskName((int)irsdk_PaceFlagOneLapToGreen, "PaceFlagOneLapToGreen"),
+    MaskName((int)irsdk_PaceFlagGreenAtStartFinish, "PaceFlagGreenAtStartFinish"),
+    MaskName((int)irsdk_PaceFlagRandomWaving, "PaceFlagRandomWaving"),
+    MaskName((int)irsdk_PaceFlagCautionRacing, "PaceFlagCautionRacing"),
+};
+
 const std::vector<MaskName> PIT_SV_STATUS = {
     MaskName((int)irsdk_PitSvNone, "PitSvNone"),
     MaskName((int)irsdk_PitSvInProgress, "PitSvInProgress"),

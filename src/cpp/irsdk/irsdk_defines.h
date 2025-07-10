@@ -263,6 +263,36 @@ enum irsdk_CameraState
 	irsdk_UseMouseAimMode          = 0x0100
 };
 
+// Pace flags bitfield
+enum irsdk_PaceFlags
+{
+    irsdk_PaceFlagNone                = 0x00000000,
+    irsdk_PaceFlagEndOfLine          = 0x00000001,
+    irsdk_PaceFlagFreePass           = 0x00000002,
+    irsdk_PaceFlagWavedAround        = 0x00000004,
+    irsdk_PaceFlagClosedPits         = 0x00000008,
+    irsdk_PaceFlagCarOnTrack         = 0x00000010,
+    irsdk_PaceFlagOnPaceGrid         = 0x00000020,
+    irsdk_PaceFlagOneToGreen         = 0x00000040,
+    irsdk_PaceFlagGreenHeld          = 0x00000080,
+    irsdk_PaceFlagOnPaceLap          = 0x00000100,
+    irsdk_PaceFlagCaution            = 0x00000200,
+    irsdk_PaceFlagCautionWaving      = 0x00000400,
+    irsdk_PaceFlagCheckered          = 0x00000800,
+    irsdk_PaceFlagWhite              = 0x00001000,
+    irsdk_PaceFlagGreen              = 0x00002000,
+    irsdk_PaceFlagYellow             = 0x00004000,
+    irsdk_PaceFlagRed                = 0x00008000,
+    irsdk_PaceFlagBlue               = 0x00010000,
+    irsdk_PaceFlagDebris             = 0x00020000,
+    irsdk_PaceFlagCrossed            = 0x00040000,
+    irsdk_PaceFlagYellowWaving       = 0x00080000,
+    irsdk_PaceFlagOneLapToGreen      = 0x00100000,
+    irsdk_PaceFlagGreenAtStartFinish = 0x00200000,
+    irsdk_PaceFlagRandomWaving       = 0x00400000,
+    irsdk_PaceFlagCautionRacing      = 0x00800000,
+};
+
 enum irsdk_PitSvFlags
 {
 	irsdk_LFTireChange		= 0x0001,
